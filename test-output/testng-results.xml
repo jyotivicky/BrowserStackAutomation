@@ -1,22 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="3" failed="0" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="121391" started-at="2021-01-07T07:57:45Z" finished-at="2021-01-07T07:59:46Z">
+  <suite name="Suite" duration-ms="10805191" started-at="2021-01-07T05:26:31Z" finished-at="2021-01-07T08:26:37Z">
     <groups>
       <group name="smoke">
-        <method signature="LoginTest.invalidPasswordTest()[pri:2, instance:com.TestCases.LoginTest@1990a65e]" name="invalidPasswordTest" class="com.TestCases.LoginTest"/>
-        <method signature="LoginTest.invalidUsernameTest()[pri:1, instance:com.TestCases.LoginTest@1990a65e]" name="invalidUsernameTest" class="com.TestCases.LoginTest"/>
-        <method signature="LoginTest.validUsernameTest()[pri:3, instance:com.TestCases.LoginTest@1990a65e]" name="validUsernameTest" class="com.TestCases.LoginTest"/>
+        <method signature="LoginTest.invalidPasswordTest()[pri:2, instance:com.TestCases.LoginTest@782663d3]" name="invalidPasswordTest" class="com.TestCases.LoginTest"/>
+        <method signature="LoginTest.invalidUsernameTest()[pri:1, instance:com.TestCases.LoginTest@782663d3]" name="invalidUsernameTest" class="com.TestCases.LoginTest"/>
+        <method signature="LoginTest.validUsernameTest()[pri:3, instance:com.TestCases.LoginTest@782663d3]" name="validUsernameTest" class="com.TestCases.LoginTest"/>
+        <method signature="LoginTest.invalidPasswordTest()[pri:2, instance:com.TestCases.LoginTest@481a15ff]" name="invalidPasswordTest" class="com.TestCases.LoginTest"/>
+        <method signature="LoginTest.invalidUsernameTest()[pri:1, instance:com.TestCases.LoginTest@481a15ff]" name="invalidUsernameTest" class="com.TestCases.LoginTest"/>
+        <method signature="LoginTest.validUsernameTest()[pri:3, instance:com.TestCases.LoginTest@481a15ff]" name="validUsernameTest" class="com.TestCases.LoginTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Mobile Automation Test on Pixel 2" duration-ms="121391" started-at="2021-01-07T07:57:45Z" finished-at="2021-01-07T07:59:46Z">
+    <test name="Mobile Automation Test on Pixel 3" duration-ms="60612" started-at="2021-01-07T05:26:31Z" finished-at="2021-01-07T05:27:32Z">
       <class name="com.TestCases.LoginTest">
-        <test-method status="PASS" signature="startAppiumServer()[pri:0, instance:com.TestCases.LoginTest@1990a65e]" name="startAppiumServer" is-config="true" duration-ms="849" started-at="2021-01-07T13:27:44Z" finished-at="2021-01-07T13:27:45Z">
+        <test-method status="PASS" signature="startAppiumServer()[pri:0, instance:com.TestCases.LoginTest@481a15ff]" name="startAppiumServer" is-config="true" duration-ms="808" started-at="2021-01-07T10:56:31Z" finished-at="2021-01-07T10:56:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startAppiumServer -->
-        <test-method status="PASS" signature="DriverInitializataion(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.LoginTest@1990a65e]" name="DriverInitializataion" is-config="true" duration-ms="29887" started-at="2021-01-07T13:27:45Z" finished-at="2021-01-07T13:28:15Z">
+        <test-method status="PASS" signature="DriverInitializataion(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.LoginTest@481a15ff]" name="DriverInitializataion" is-config="true" duration-ms="30712" started-at="2021-01-07T10:56:31Z" finished-at="2021-01-07T10:57:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google Pixel 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverInitializataion -->
+        <test-method status="PASS" signature="Initialaization()[pri:0, instance:com.TestCases.LoginTest@481a15ff]" name="Initialaization" is-config="true" duration-ms="304" started-at="2021-01-07T10:57:02Z" finished-at="2021-01-07T10:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialaization -->
+        <test-method status="PASS" signature="invalidUsernameTest()[pri:1, instance:com.TestCases.LoginTest@481a15ff]" name="invalidUsernameTest" duration-ms="11356" started-at="2021-01-07T10:57:02Z" finished-at="2021-01-07T10:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameTest -->
+        <test-method status="PASS" signature="Initialaization()[pri:0, instance:com.TestCases.LoginTest@481a15ff]" name="Initialaization" is-config="true" duration-ms="16" started-at="2021-01-07T10:57:14Z" finished-at="2021-01-07T10:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialaization -->
+        <test-method status="PASS" signature="invalidPasswordTest()[pri:2, instance:com.TestCases.LoginTest@481a15ff]" name="invalidPasswordTest" duration-ms="7758" started-at="2021-01-07T10:57:14Z" finished-at="2021-01-07T10:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method status="PASS" signature="Initialaization()[pri:0, instance:com.TestCases.LoginTest@481a15ff]" name="Initialaization" is-config="true" duration-ms="8" started-at="2021-01-07T10:57:22Z" finished-at="2021-01-07T10:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialaization -->
+        <test-method status="PASS" signature="validUsernameTest()[pri:3, instance:com.TestCases.LoginTest@481a15ff]" name="validUsernameTest" duration-ms="10008" started-at="2021-01-07T10:57:22Z" finished-at="2021-01-07T10:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.TestCases.LoginTest@481a15ff]" name="afterTest" is-config="true" duration-ms="416" started-at="2021-01-07T10:57:32Z" finished-at="2021-01-07T10:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="stopAppiumServer()[pri:0, instance:com.TestCases.LoginTest@481a15ff]" name="stopAppiumServer" is-config="true" duration-ms="2" started-at="2021-01-07T13:56:37Z" finished-at="2021-01-07T13:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- com.TestCases.LoginTest -->
+    </test> <!-- Mobile Automation Test on Pixel 3 -->
+    <test name="Mobile Automation Test on Pixel 2" duration-ms="10805191" started-at="2021-01-07T05:26:31Z" finished-at="2021-01-07T08:26:37Z">
+      <class name="com.TestCases.LoginTest">
+        <test-method status="FAIL" signature="DriverInitializataion(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.LoginTest@782663d3]" name="DriverInitializataion" is-config="true" duration-ms="0" started-at="2021-01-07T10:56:31Z" finished-at="2021-01-07T10:56:31Z">
           <params>
             <param index="0">
               <value>
@@ -34,45 +94,131 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Original error: timeout
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VICKY', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: timeout
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VICKY', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+	at com.BaseClass.TestBase.DriverInitializataion(TestBase.java:209)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 32 more
+Caused by: java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:232)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:285)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:241)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+	... 37 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	... 58 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverInitializataion -->
-        <test-method status="PASS" signature="jsonDataInitialaization()[pri:0, instance:com.TestCases.LoginTest@1990a65e]" name="jsonDataInitialaization" is-config="true" duration-ms="2162" started-at="2021-01-07T13:28:15Z" finished-at="2021-01-07T13:28:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jsonDataInitialaization -->
-        <test-method status="PASS" signature="Initialaization()[pri:0, instance:com.TestCases.LoginTest@1990a65e]" name="Initialaization" is-config="true" duration-ms="330" started-at="2021-01-07T13:28:17Z" finished-at="2021-01-07T13:28:17Z">
+        <test-method status="SKIP" signature="Initialaization()[pri:0, instance:com.TestCases.LoginTest@782663d3]" name="Initialaization" is-config="true" duration-ms="0" started-at="2021-01-07T13:56:37Z" finished-at="2021-01-07T13:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialaization -->
-        <test-method status="PASS" signature="invalidUsernameTest()[pri:1, instance:com.TestCases.LoginTest@1990a65e]" name="invalidUsernameTest" duration-ms="30136" started-at="2021-01-07T13:28:17Z" finished-at="2021-01-07T13:28:47Z">
+        <test-method status="SKIP" signature="invalidUsernameTest()[pri:1, instance:com.TestCases.LoginTest@782663d3]" name="invalidUsernameTest" duration-ms="5" started-at="2021-01-07T13:56:37Z" finished-at="2021-01-07T13:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameTest -->
-        <test-method status="PASS" signature="Initialaization()[pri:0, instance:com.TestCases.LoginTest@1990a65e]" name="Initialaization" is-config="true" duration-ms="6" started-at="2021-01-07T13:28:47Z" finished-at="2021-01-07T13:28:47Z">
+        <test-method status="SKIP" signature="Initialaization()[pri:0, instance:com.TestCases.LoginTest@782663d3]" name="Initialaization" is-config="true" duration-ms="0" started-at="2021-01-07T13:56:37Z" finished-at="2021-01-07T13:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialaization -->
-        <test-method status="PASS" signature="invalidPasswordTest()[pri:2, instance:com.TestCases.LoginTest@1990a65e]" name="invalidPasswordTest" duration-ms="28006" started-at="2021-01-07T13:28:47Z" finished-at="2021-01-07T13:29:15Z">
+        <test-method status="SKIP" signature="invalidPasswordTest()[pri:2, instance:com.TestCases.LoginTest@782663d3]" name="invalidPasswordTest" duration-ms="1" started-at="2021-01-07T13:56:37Z" finished-at="2021-01-07T13:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPasswordTest -->
-        <test-method status="PASS" signature="Initialaization()[pri:0, instance:com.TestCases.LoginTest@1990a65e]" name="Initialaization" is-config="true" duration-ms="6" started-at="2021-01-07T13:29:15Z" finished-at="2021-01-07T13:29:15Z">
+        <test-method status="SKIP" signature="Initialaization()[pri:0, instance:com.TestCases.LoginTest@782663d3]" name="Initialaization" is-config="true" duration-ms="0" started-at="2021-01-07T13:56:37Z" finished-at="2021-01-07T13:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialaization -->
-        <test-method status="PASS" signature="validUsernameTest()[pri:3, instance:com.TestCases.LoginTest@1990a65e]" name="validUsernameTest" duration-ms="30045" started-at="2021-01-07T13:29:15Z" finished-at="2021-01-07T13:29:46Z">
+        <test-method status="SKIP" signature="validUsernameTest()[pri:3, instance:com.TestCases.LoginTest@782663d3]" name="validUsernameTest" duration-ms="2" started-at="2021-01-07T13:56:37Z" finished-at="2021-01-07T13:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.TestCases.LoginTest@1990a65e]" name="afterTest" is-config="true" duration-ms="782" started-at="2021-01-07T13:29:46Z" finished-at="2021-01-07T13:29:46Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.TestCases.LoginTest@782663d3]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-01-07T13:56:37Z" finished-at="2021-01-07T13:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="stopAppiumServer()[pri:0, instance:com.TestCases.LoginTest@1990a65e]" name="stopAppiumServer" is-config="true" duration-ms="1" started-at="2021-01-07T13:29:47Z" finished-at="2021-01-07T13:29:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopAppiumServer -->
       </class> <!-- com.TestCases.LoginTest -->
     </test> <!-- Mobile Automation Test on Pixel 2 -->
   </suite> <!-- Suite -->

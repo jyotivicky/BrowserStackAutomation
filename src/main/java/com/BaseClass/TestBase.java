@@ -210,10 +210,10 @@ import org.testng.annotations.BeforeSuite;
 				cap.setCapability("device", deviceName);
 				cap.setCapability("os_version", platformVersion);
 				cap.setCapability("project", "Mobile Automation");
-				cap.setCapability("build", "Mobile Build");
+				cap.setCapability("build", buildName);
 				cap.setCapability("name", "Appium Testing");
 				cap.setCapability("app", "bs://c68d1aa4b8debc31d022649775a5524cb9be34e0");
-				driver = new AndroidDriver(url, cap);
+				driver = new AndroidDriver(browserStackURL, cap);
 				break;
 				
 			case "Google Pixel 3":
@@ -224,7 +224,7 @@ import org.testng.annotations.BeforeSuite;
 				cap.setCapability("project", "Mobile Automation");
 				cap.setCapability("build", "Mobile Build");
 				cap.setCapability("name", "Appium Testing");
-				cap.setCapability("app", "bs://c68d1aa4b8debc31d022649775a5524cb9be34e0");
+				cap.setCapability("app", app);
 				driver = new AndroidDriver(url, cap);
 				break;
 				
