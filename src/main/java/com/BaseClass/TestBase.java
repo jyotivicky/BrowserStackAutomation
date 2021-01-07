@@ -212,7 +212,7 @@ import org.testng.annotations.BeforeSuite;
 				cap.setCapability("project", "Mobile Automation");
 				cap.setCapability("build", buildName);
 				cap.setCapability("name", "Appium Testing");
-				cap.setCapability("app", "bs://c68d1aa4b8debc31d022649775a5524cb9be34e0");
+				cap.setCapability("app", app);
 				driver = new AndroidDriver(browserStackURL, cap);
 				break;
 				
