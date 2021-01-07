@@ -195,13 +195,13 @@ import org.testng.annotations.BeforeSuite;
 			cap.setCapability("deviceName", deviceName);
 
 			appiumURL = new URL(props.getProperty("appiumUrl"));
-			URL url = new URL(BrowserStackURL);
+			URL LocalBrowserStackURL = new URL(BrowserStackURL);
 
 		    String userName = System.getenv("BROWSERSTACK_USERNAME");
 		    String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
 		    String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
 		    String app = System.getenv("BROWSERSTACK_APP_ID");
-		    URL browserStackURL = new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub");
+		    URL BrowserStackURL = new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub");
 		    
 			switch (deviceName) {
 			case "Google Pixel 2":
@@ -210,10 +210,10 @@ import org.testng.annotations.BeforeSuite;
 				cap.setCapability("device", deviceName);
 				cap.setCapability("os_version", platformVersion);
 				cap.setCapability("project", "Mobile Automation");
-				cap.setCapability("name", "BStack-[Java] Sample Test");
+				cap.setCapability("name", "Appium Testing");
 				cap.setCapability("build", buildName);
 				cap.setCapability("app", app);
-				driver = new AndroidDriver(browserStackURL, cap);
+				driver = new AndroidDriver(BrowserStackURL, cap);
 				break;
 				
 			case "Google Pixel 3":
@@ -222,10 +222,10 @@ import org.testng.annotations.BeforeSuite;
 				cap.setCapability("device", deviceName);
 				cap.setCapability("os_version", platformVersion);
 				cap.setCapability("project", "Mobile Automation");
-				cap.setCapability("build", "Mobile Build");
 				cap.setCapability("name", "Appium Testing");
+				cap.setCapability("build", buildName);
 				cap.setCapability("app", app);
-				driver = new AndroidDriver(url, cap);
+				driver = new AndroidDriver(BrowserStackURL, cap);
 				break;
 				
 			default:
